@@ -25,7 +25,7 @@ body{
 
 .head{
     top: 0;
-    position: sticky;
+    position: fixed;
     background-color: #fff;
     /* max-width: 190%; */
     width: 100%;
@@ -384,9 +384,6 @@ body{
         margin-top: 30%;
     }
 
-    .head{
-        width: 166%;
-    }
 
     .navlist{
         display: none;
@@ -433,7 +430,7 @@ body{
         width: 584px;
         max-width: none;
         height: 100%;
-        margin: auto;
+        margin:30% auto;
     }
 
     .pic img{
