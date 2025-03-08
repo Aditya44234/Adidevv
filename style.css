@@ -458,7 +458,8 @@ body{
     }
 
     .body-3{
-        margin: 90% 40%;
+        /* height: 200vh; */
+        margin: 120% 40%;
         align-items: center;
         justify-content: start;
         padding:30%;
