@@ -18,6 +18,7 @@ body{
     color: black;
     text-decoration: none;
     list-style: none;
+    zoom: 1.1;
 
 }
 
@@ -26,7 +27,10 @@ body{
     top: 0;
     position: sticky;
     background-color: #fff;
+    /* max-width: 190%; */
     width: 100%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.4);
+
 
 
 }
@@ -69,7 +73,7 @@ body{
     gap: 25px;
     list-style: none;
     flex-direction: column;
-    margin-top: 100%;
+    margin-top: 125%;
     width: 100%;
     padding: 40px;
     font-size: 30px;
@@ -107,6 +111,9 @@ body{
     font-size: 30px;
     display: none;
     z-index: 100;
+    border-radius: 360px;
+    padding: 0px 9px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.4); 
 }
 
 
@@ -136,14 +143,11 @@ body{
     background-color: #fff;
     color: black;
     font-family: "Poppins", sans-serif;
-    /* font-size: 50px; */
     font-weight: bold;
-    padding: 0% 30%;
+    padding: 0% 24%;
     gap: 50px;
-    /* max-width: 600px; */
     width: 100%;
     text-align: center ;
-    /* border: 4px solid black; */
 
 
 } 
@@ -156,7 +160,7 @@ body{
     /* line-height: 30px; */
     gap: 10px;
     font-size: 20px;
-    width: 100%;
+    /* width: 100%; */
     justify-content: center;
 
 }
@@ -265,8 +269,10 @@ body{
 
 }
 
+
+
 .box1 img{
-    width: 590px;
+    width: 470px;
     border-radius: 30px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.4);
 }
@@ -295,6 +301,13 @@ body{
     padding: 30px 50px;
     border-radius: 30px;
     /* font-size: 20px; */
+}
+
+.text{
+    font-size: 20px;
+    color: rgb(5, 3, 3);
+    text-align: center;
+    padding: 20px;
 }
 
 
@@ -365,18 +378,26 @@ body{
 
 
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:390px) {
+
+    section{
+        margin-top: 30%;
+    }
 
     .head{
-        width: 160%;
+        width: 166%;
     }
 
     .navlist{
         display: none;
+        transition: 0.4s ;
+        transform: translateX(-30%);
+
     }
 
     .navlist.active{
         display: block;
+        transition: 0.4s ;
     }
 
     .logo{
@@ -397,17 +418,19 @@ body{
         color: rgb(0, 0, 0);
         font-size: 30px;
         font-weight: 500;
+        transition: 0.4s ;
+
     }
 
     .body-1{
-        padding: 25% ;
+        padding: 10% ;
         gap: 20px;
         flex-direction: column;
         margin:0;
         align-items: center;
         justify-content: space-between;
         border-bottom: 3px solid black;
-        width: 600px;
+        width: 584px;
         max-width: none;
         height: 100%;
         margin: auto;
@@ -469,7 +492,6 @@ body{
     .boxes2{
        
         flex-direction: column;
-        margin: auto 20%;
 
 
 
@@ -484,7 +506,7 @@ body{
    
 
     .boxes2 .box1 ,.boxes2 .box2{
-        padding: 20px;
+        padding: 3px;
         /* margin: auto; */
         font-size: 15px; ;
     }
