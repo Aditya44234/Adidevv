@@ -12,7 +12,7 @@
 <body>
 
     <!-- Header part -->
-    <header class="head">
+    <header class="head" id="Home">
 
         <!-- Navigation Bar -->
 
@@ -21,7 +21,7 @@
                 <h2>Adi Dev</h1>
             </div>
             <ul class="navlist ">
-                <a href="#Home" class="active">
+                <a href="index.html" class="active">
                     <li>Home</li>
                 </a>
                 <a href="#About">
@@ -30,7 +30,7 @@
                 <a href="#Experience">
                     <li>Experience</li>
                 </a>
-                <a href="#Projects">
+                <a href="#parent">
                     <li>Projects</li>
                 </a>
                 <a href="#Contact">
@@ -76,15 +76,17 @@
                   <!-- Linkedin -->
                   <a href="#"><i class="fab fa-linkedin"></i></a> 
                   <!-- github -->
-                <a href=" https://github.com/Aditya44234"><i class="fab fa-github"></i></a>
+                <a  href=" https://github.com/Aditya44234"><i class="fab fa-github"></i></a>
               </div>
+              <ul id="About"></ul>
         </div>
     </section>
+    
     
 
      <!-- Body 2 -->
 
-     <section class="body-2" id="About">
+     <section class="body-2" >
 
         <div class="topText">
             <p>Get to Know more</p>
@@ -116,16 +118,16 @@
                 </div>
 
                 <div class="text">
-                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae consequatur est mollitia sunt rerum quasi at eos officiis inventore ex aut illum delectus magnam accusamus quo alias repellendus dignissimos libero nihil ipsam, reprehenderit, quidem ea, a repellat. Ipsa, repellendus eius at libero </p> -->
                     <p>Passionate Frontend Developer with 2+ years of experience crafting seamless and dynamic web experiences. I specialize in building intuitive, user-friendly interfaces with a strong focus on performance and aesthetics.</p>
                 </div>
             </div>
         </div>
+
+        <ul id="Experience"></ul>
     
 
         
      </section>
- 
 
 
 
@@ -133,7 +135,7 @@
      <!-- Body 3 -->
 
 
-     <section class="body-3" id="Experience">
+     <section class="body-3" >
 
         <div class="topText">
 
@@ -150,13 +152,13 @@
                     <div class="experices">
                         <ul>
                             <li><h1>  <i class="fa-solid fa-circle-check"></i>HTML</h1><p>Experienced</p></li>
-                            <li> <h1> <i class="fa-solid fa-circle-check"></i>SASS</h1> <p>Intermidiate</p></li>
+                            <li> <h1> <i class="fa-solid fa-circle-check"></i>SASS</h1> <p>Intermediate</p></li>
                             <li> <h1> <i class="fa-solid fa-circle-check"></i>Typescript</h1> <p>Basic</p></li>
                         </ul>
                         <ul>
                             <li> <h1> <i class="fa-solid fa-circle-check"></i>CSS</h1> <p>Experienced</p></li>
                             <li><h1> <i class="fa-solid fa-circle-check"></i>Javascript</h1> <p>Basic</p></li>
-                            <li> <h1> <i class="fa-solid fa-circle-check"></i> Material UI</h1> <p>Intermidiate</p></li>
+                            <li> <h1> <i class="fa-solid fa-circle-check"></i> Material UI</h1> <p>Intermediate</p></li>
                         </ul>
                     </div>
               
@@ -170,22 +172,16 @@
                     <div class="experices">
                         <ul>
                             <li> <h1>   <i class="fa-solid fa-circle-check"></i>PostgreSQL</h1> <p>Basic</p></li>
-                            <li> <h1> <i class="fa-solid fa-circle-check"></i>Express Js</h1> <p>Intermidiate</p></li>
+                            <li> <h1> <i class="fa-solid fa-circle-check"></i>Express Js</h1> <p>Intermediate</p></li>
                         </ul>
                         <ul>
                             <li> <h1> <i class="fa-solid fa-circle-check"></i>Node Js</h1> <p>Experienced</p></li>
-                            <li> <h1> <i class="fa-solid fa-circle-check"></i> Git </h1> <p>Intermidiate</p></li>
+                            <li> <h1> <i class="fa-solid fa-circle-check"></i> Git </h1> <p>Intermediate</p></li>
                         </ul>
                     </div>
                 </div>
-
-
-           
-        </div>
-
-
-
-        
+            </div>        
+            <ul id="parent"></ul>
      </section>
  
 
@@ -193,10 +189,104 @@
 
 
      <!-- Body 4 -->
+            <!-- Projects section -->
 
-     <section class="body-4">
-        
+
+     <section class="body-4" >
+
+        <div class="projectsHead">
+            <p>Browse My Recent </p>
+            <h1>Projects</h1>
+        </div>
+
+
+        <div class="projects" >
+
+            <!-- Project --1 -->
+            <div  class="child" id="project">
+                <img src="pexels-ash-craig-122861-376464.jpg" alt="">
+                <div class="proInfo">
+                    <h1>Online Food</h1>
+                    <div class="proBtns">
+                        <button>GitHub</button>
+                        <button>Live Demo</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project --2 -->
+            <div  class="child" id="project">
+                <img src="pexels-japy-1069798.jpg" alt="">
+                <div class="proInfo">
+                    <h1>Scheduler</h1>
+                    <div class="proBtns">
+                        <button>GitHub</button>
+                        <button>Live Demo</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Project --3 -->
+            <div  class="child" id="project">
+                <img src="pexels-life-of-pix-7974.jpg">
+                <div class="proInfo">
+                    <h1>Todo app</h1>
+                    <div class="proBtns">
+                        <button>GitHub</button>
+                        <button>Live Demo</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>        
      </section>
+
+     <!-- Body-5 -->
+<!-- Contact  -->
+
+     <section class="body-5" id="Contact">
+        <div class="conHead">
+            <p>Get in Touch</p>
+            <h1>Contact me</h1>
+        </div>
+
+        <div class="emailBox">
+            <!-- Input one -->
+             <!-- <i class="fa-solid fa-circle-check"></i> -->
+             <i class="fa-solid fa-user"></i>
+             <input type="email" placeholder="youremail@email.com">
+             <!-- Linkedin-->
+             <a href="#"><i class="fab fa-linkedin"></i></a>
+             Linkedin
+        </div>
+     </section>
+
+
+
+
+    <ul class="navlist">
+        <a href="index.html" class="active">
+            <li>Home</li>
+        </a>
+        <a href="#About">
+            <li>About</li>
+        </a>
+        <a href="#Experience">
+            <li>Experience</li>
+        </a>
+        <a href="#parent">
+            <li>Projects</li>
+        </a>
+        <a href="#Contact">
+            <li>Contact</li>
+        </a>
+    </ul>
+
+
+    <footer>copyright &copy; 2025.   Adi Dev  All rights  reserved. </footer>
+
+
  
     
 
