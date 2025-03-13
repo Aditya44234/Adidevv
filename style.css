@@ -1,4 +1,6 @@
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 
@@ -6,9 +8,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
-
-
+    scroll-behavior:smooth;
 }
 
 
@@ -81,7 +81,7 @@ html,body{
     gap: 25px;
     list-style: none;
     flex-direction: column;
-    margin-top: 185%;
+    margin-top: 145%;
     /* height: 100vh; */
     width: 100%;
     padding: 40px;
@@ -95,8 +95,6 @@ html,body{
     z-index: 1000;
     opacity: 0.9;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0,0.4);
-
-
 }
 
 
@@ -217,6 +215,23 @@ html,body{
 
 }
 
+
+#cv{
+    color: black;
+    /* background-color: #fff; */
+    text-decoration: none;
+    transition: 0.8s ease;
+
+
+}
+
+#cv:hover{
+    background-color: black;
+    color: white;
+    border:3px solid black;
+
+}
+
 .btns button:hover{
     background-color: black;
     color :white;
@@ -250,26 +265,12 @@ html,body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
     background-color: #fff;
     color: black;
     font-family: "Poppins", sans-serif;
-    /* font-size: 50px; */
-    /* font-weight: bold; */
     padding: 0% 7%;
     flex-direction: column;
-
-    /* animation: appear linear;
-    animation-timeline: view();
-    animation-range: entry 0% cover 40%;
-    transition: all 3s;
- */
-
-
-
-   
-
-
+    height: 100vh;
 }
 
 
@@ -290,10 +291,6 @@ html,body{
     gap: 90px;
     padding: 10px;
     align-items: start;
-
- 
-
-
 }
 
 
@@ -346,6 +343,8 @@ html,body{
 
 .body-3{
     margin-top: 10%;
+    /* border-bottom: 3px solid red; */
+    height: 100vh;
 }
 
 
@@ -378,7 +377,7 @@ html,body{
 
 .boxes2 .box1 .experices, .boxes2 .box2 .experices   {
     display: flex;
-    gap: 140px;
+    gap:  90px ;
     padding: 40px;
     align-items: center;
     text-align: start;
@@ -397,7 +396,6 @@ html,body{
 .boxes2 .box1 .experices ul li ,.boxes2 .box2 .experices ul li{
 
     list-style: none;
- 
     padding: 15px;
 }
 
@@ -412,9 +410,9 @@ html,body{
     display: flex;
     align-self: center;
     justify-content: center;
-    padding: 30px;
+    /* padding: 30px; */
     gap: 30px;
-    margin: 40px;
+    margin:40px 20px;
     flex-direction: column;
 }
 
@@ -624,7 +622,7 @@ footer{
     }
 
     .logo{
-        font-size: 25px;
+        font-size: 22px;
         text-align: start;
         display: flex;
         align-items: start;
@@ -653,7 +651,7 @@ footer{
         align-items: center;
         justify-content: space-between;
         border-bottom: 3px solid black;
-        width: 400px;
+        width: 360px;
         max-width: none;
         height: 100%;
         margin:30% auto;
@@ -739,12 +737,43 @@ footer{
     }
 
     .boxes2 .box1 {
-        margin-bottom:20px;
-        
+        margin-bottom:20px;   
+    }
+
+    .proBtns button{
+        padding:8px  13px;    
+    }
+    .projectsHead{
+    font-size: 30px;
+    }
+
+    .child img{
+        width: 250px;
+        border-radius: 30px;
     }
 
 
-  
+    .body-5{
+        height: 60vh;
+        gap: 40px;
+        padding: 20px;
+        font-family: "Poppins",sans-serif;
+        margin-bottom: 7%;
+    }
+
+    .emailBox{
+        padding:10px 25px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .emailBox input{
+        padding: 2px 4px;
+        font-size: 15px;
+    
+    }
+
 
 
 
